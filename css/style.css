@@ -284,7 +284,7 @@ button:hover {
   transition: transform 0.4s 1s ease-out, opacity 0.4s 1s ease-out, -webkit-transform 0.4s 1s ease-out;
 }
 
-#nav {
+nav {
   z-index: 1;
   position: fixed;
   top: -100%;
@@ -297,7 +297,7 @@ button:hover {
           backface-visibility: hidden;
   overflow: hidden;
 }
-#nav:before {
+nav:before {
   content: '';
   position: absolute;
   top: 0;
@@ -314,10 +314,10 @@ button:hover {
           transform: scale(0.04), translateY(9999px);
   overflow: hidden;
 }
-.open #nav {
+.open nav {
   top: 0;
 }
-.open #nav:before {
+.open nav:before {
   -webkit-animation: menu-animation 0.8s ease-out forwards;
           animation: menu-animation 0.8s ease-out forwards;
 }
