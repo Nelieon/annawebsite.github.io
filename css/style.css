@@ -177,14 +177,14 @@ ul li {
   ul li {
     cursor: pointer;
     padding: 6px 20px;
-    font-size: 50px;
+    font-size: 60px;
   }
 }
 @media (max-width: 500px) {
   ul li {
     cursor: pointer;
     padding: 6px 20px;
-    font-size: 18px;
+    font-size: 68px;
   }
 }
 button {
