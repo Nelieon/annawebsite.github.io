@@ -1,3 +1,39 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Nelieon 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+Nelieon
+/
+annawebsite.github.io
+1
+0
+0
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+annawebsite.github.io/css/style.css
+@Nelieon
+Nelieon css change
+Latest commit f161728 11 minutes ago
+ History
+ 1 contributor
+510 lines (492 sloc)  11.8 KB
+  
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Lusitana);
 
@@ -184,7 +220,7 @@ ul li {
   ul li {
     cursor: pointer;
     padding: 6px 20px;
-    font-size: 68px;
+    font-size: 38px;
   }
 }
 button {
@@ -508,3 +544,16 @@ article {
     border-radius: 0;
   }
 }
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+10 results found.
