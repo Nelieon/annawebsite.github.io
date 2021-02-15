@@ -13,10 +13,11 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 		<title></title>
 	</head>
 	<body>
-		<button class="menu-toggle btn shadow-none"></button>
+		<button id="b1" class=" b menu-toggle btn shadow-none" ></button>
 		<nav>
 		  <ul class="menu" style="font-family: 'Amatic SC', cursive;">
 		    <li data-text="Обо мне">Обо мне</li>
@@ -41,30 +42,92 @@
 			  	</div>
 			</div>
 		</div>
-		<div class="container-fluid top-shadow" id = "block2">
-		  <ul class="nav nav-justified">
+		<div class="container-fluid " id = "block2">
+		  <ul class="nav nav-justified ">
 		    <li class="nav-item ">
 		      <a class="nav-link" href="#">Обо мне</a>
 		    </li>
-		    <li class="nav-item">
+		    <li class="nav-item ">
 		      <a class="nav-link" href="#">Кто такой коуч?</a>
 		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" href="#">Об игре</a>
+		    <li class="nav-item ">
+		      <a class="nav-link" href="#">Об игре</a> 
 		    </li>
-		    <li class="nav-item">
+		    <li class="nav-item " >
 		      <a class="nav-link" href="#">Контакты</a>
 		    </li>
 		  </ul>
 		</div>
-		<div class="container-fluid" id = "block2"></div>
+
+		<div class="container-fluid p-b-20" id="block3">
+			<div class="container">
+				<div class="row ">
+					<div class="col-sm-6">
+						<h1 class="c-dgray t-center fs-60" style="font-family: 'Amatic SC', cursive; ">Обо мне</h1>
+					
+						<strong>
+						<p>Меня зовут Циля Канадская</p>
+						<p>Я коуч и автор игры «Дочки-матери. Семейные ценности»</p>
+						<p>Изучила Professional Coach ICU и консалтинг в Международной Академии ICU Group.</p>
+						
+						</strong>
+						
+					</div>
+					<div class="col-sm-6"><img src="img/500x600.jpg" class="rounded css-adaptive m-t-20" ></div>
+
+			</div>
+			<hr class="m-t-40">
+			<div>
+				<center><button type="button " class="btn btn-outline-dark m-t-20" data-toggle="collapse" data-target="#demo1">Узнать больше</button></center>
+			  	<div id="demo1" class="collapse m-b-20 m-t-40">
+			   	<strong><p>«Благодаря моей методике , а именно игре-сессии в коуч-формате, уже несколько лет мне удается помогать людям справиться с трудностями в отношениях в семье. Наша жизнь слишком коротка, для того чтобы тратить ее на ссоры , обиды и недопонимания. Я помогу вам решить те задачи, которые стоят на пути к здоровым отношениям, взаимопониманию, поддержке и уважению внутри семьи.»</p></strong>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid p-b-10 p-t-20" id="block4">
+			<div class="container">
+				<div class="p-b-20">
+				<center><a class="display-2" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    			Кто такой коуч?
+  				</a></center>
+			  	<div class="collapse" id="collapseExample">
+  					
+  						<p>
+  						Коуч - это специалист, который помогает человеку достигать его целей.
+						В отличии от психологов, которые работают с прошлым людей, коучи работают с их будущим и с конкретными целями.
+						Они дают поддержку и, если это необходимо, фрустрируют человека,
+						ставя под сомнение его цели. Но вся
+						ответственность за достижение результата лежит на самом человеке. Коуч не дает советов в том, что конкретно ему делать. Но он имеет огромный арсенал инструментов для того, чтобы человек сам для себя находил ответы.
+						Коуч - это не всегда эксперт в той области , где его клиент хочет развить компетенцию. 
+						</p>
+ 					 
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
 		<script src='jquery_v2.1.3.js'></script>
 		<!-- to del -->
-		
+		<script>
+			document.write('<script src="https://'
+			 + (location.host || 'localhost').split(':')[0]
+			  + ':35729/livereload.js?snipver=1"></' + 'script>')
+		</script>
 		<!-- -->
 		<script>
-		$('button').on('click', function(){
+		$('#b1').on('click', function(event){
  		$('body').toggleClass('open');
 		});</script>
+			<!--  BOOTSTRAP JS  -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>

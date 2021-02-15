@@ -1,56 +1,24 @@
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Nelieon 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-Nelieon
-/
-annawebsite.github.io
-1
-0
-0
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-annawebsite.github.io/css/style.css
-@Nelieon
-Nelieon css change
-Latest commit f161728 11 minutes ago
- History
- 1 contributor
-510 lines (492 sloc)  11.8 KB
-  
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Lusitana);
 
-.btn:focus, .btn:active {
-  outline: none !important;
-  box-shadow: none !important;
-}
+
 
 .top-shadow{
 -webkit-box-shadow: 0px -17px 49px 9px rgba(63, 184, 235, 0.19);
 -moz-box-shadow: 0px -17px 49px 9px rgba(63, 184, 235, 0.19);
 box-shadow: 0px -17px 49px 9px rgba(63, 184, 235, 0.19);
 }
+a .display-2 {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
 
 #block1 {
   min-height: 300px;
-  background:linear-gradient(135deg, #87CEEB, #C5DDE8);
+  background:linear-gradient(180deg, #C5DDE8,#87CEEB);
   padding-top:80px;
   padding-left: 20px;
   padding-right: 20px;
@@ -95,14 +63,22 @@ box-shadow: 0px -17px 49px 9px rgba(63, 184, 235, 0.19);
     text-align: center;
   }
 }
+p{
+    font-size: 24px;
+    font-family: 'Poiret One', cursive;
+    margin:5px;
+    text-align: center;
+}
 .nav-item{
   padding: 0px;
   font-size: 36px;
+  min-width: 250px;
+  text-align: center;
 }
 
 .nav-link{
   color:#C5DDE8;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
   transition: all 0.6s;
 }
 .nav-link:hover{
@@ -111,17 +87,36 @@ box-shadow: 0px -17px 49px 9px rgba(63, 184, 235, 0.19);
 .nav {
   background-color: #5F9EA0;
 }
+p kbd {
+  background-color: #5F9EA0; // Changes background color
+  color: #333;                  // Changes text color
+}
+h1 kbd{
+  background-color: #5F9EA0; // Changes background color
+  color: #333;                  // Changes text color
+}
 
 @media (max-width: 500px) {
   .nav-item{
   padding: 0px;
-  font-size: 24px;
+  font-size:20px;
   }
 }
 #block2 {
 background-color: #5F9EA0;
 }
+.css-adaptive {
+display: block;
+max-width: 100%;
+height: auto;
+}
+#block3 {
+background:linear-gradient(0deg, #C5DDE8,#87CEEB);
 
+}
+#block4 {
+  background-color: #5F9EA0;
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -213,17 +208,17 @@ ul li {
   ul li {
     cursor: pointer;
     padding: 6px 20px;
-    font-size: 60px;
+    font-size: 40px;
   }
 }
 @media (max-width: 500px) {
   ul li {
     cursor: pointer;
     padding: 6px 20px;
-    font-size: 38px;
+    font-size: 28px;
   }
 }
-button {
+#b1 {
   opacity: 0.6;
   background-color: transparent;
   position: relative;
@@ -238,7 +233,7 @@ button {
   transition: opacity 0.2s ease-out;
 }
 @media (max-width: 500px) {
-  button {
+  #b1 {
   opacity: 0.6;
   background-color: transparent;
   position: relative;
@@ -253,7 +248,7 @@ button {
   transition: opacity 0.2s ease-out;
   }
 }
-button:before {
+#b1:before {
   content: "";
   position: absolute;
   top: 0;
@@ -268,7 +263,7 @@ button:before {
   -webkit-transition: opacity 0.2s ease-out, width 0.2s 0.2s ease-out;
   transition: opacity 0.2s ease-out, width 0.2s 0.2s ease-out;
 }
-button:after {
+#b1:after {
   opacity: 0;
   content: '×';
   color: white;
@@ -282,7 +277,7 @@ button:after {
   transition: opacity 0.4s ease-out;
 }
 @media (max-width: 500px) {
-  button:after {
+  #b1:after {
   opacity: 0;
   content: '×';
   color: white;
@@ -296,21 +291,21 @@ button:after {
   transition: opacity 0.4s ease-out;
 }
 }
-button:active {
+#b1:active {
   -webkit-transform: translateY(2px);
           transform: translateY(2px);
 }
-button:hover {
+#b1:hover {
   opacity: 1;
 }
-.open button {
+.open #b1 {
   opacity: 1;
 }
-.open button:before {
+.open #b1:before {
   opacity: 0;
   width: 0;
 }
-.open button:after {
+.open #b1:after {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0) rotate(360deg);
           transform: translate3d(0, 0, 0) rotate(360deg);
@@ -544,16 +539,3 @@ article {
     border-radius: 0;
   }
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-10 results found.
